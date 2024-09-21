@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web Responsiva</title>
+    <!-- Link para o Bootstrap via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <h1>Playground do Cláudio</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Corpo da página -->
+    <main>
+        <!-- Seção 1 -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Seção 1 - História do HTML</h2>
+                    <p>O HTML (Hypertext Markup Language) foi criado em 1991 por Tim Berners-Lee, o inventor da World Wide Web, como uma linguagem de marcação simples para estruturar documentos e interligá-los por meio de hiperlinks. A primeira versão pública, HTML 2.0, foi padronizada em 1995, trazendo regras mais formalizadas. Ao longo dos anos, o HTML evoluiu com novas versões, como o HTML 4.01 em 1999, que trouxe suporte a elementos de design e scripts mais complexos. Em 2014, o HTML5 se tornou a versão mais recente e amplamente usada, introduzindo suporte avançado para multimídia, gráficos e funcionalidades modernas, adaptando-se às necessidades da web contemporânea.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção 2 -->
+        <div class="container bg-light my-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Seção 2 - Melhor linguagem</h2>
+                    <p>Sem sombra de dúvidas é o Python.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção 3 -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <h2>Seção 3 - Melhor faculdade</h2>
+                    <p>Descomplica.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Minha Página Web</p>
+        </div>
+    </footer>
+
+    <!-- Script para adicionar o ano automaticamente -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Link para o Bootstrap via CDN (opcional, para recursos JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
